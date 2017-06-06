@@ -8,116 +8,166 @@
 	<body>
 		<div id="content">
 			<div id="main" class="section">
-				<h1>Mateusz Rasiński</h1>
-				<img id="myImg" alt="Mateusz Rasiński" src="resources/resume.png">
-				<dl>
-					<dt>Data i miejsce urodzenia</dt>
-					<dd>03.01.1990 r., Rybnik</dd>
-					<dt>Adres</dt>
-					<dd>ul. Jasielska, Warszawa</dd>
-					<dt>E-mail</dt>
-					<dd><a href="mailto:mateusz.rasinski@gmail.com">mateusz.rasinski@gmail.com</a></dd>
-					<dt>
-						LinkedIn
-					</dt>
-					<dd>
-						<a href="http://www.linkedin.com/in/mateuszrasinski">
-							<img id="linkedInImg" alt="LinkedIn Profile" src="resources/LinkedIn_Logo16px.png"/>
-						</a>
-					</dd>
-					<dt>
-						GitHub
-					</dt>
-					<dd>
-						<a href="https://github.com/MateuszRasinski/">
-							<img id="gitHubImg" alt="GitHub Profile" src="resources/GitHub-Mark-32px.png"/>
-						</a>
-					</dd>
-				</dl>
+				<div id="info">
+					<h1>Mateusz Rasiński</h1>
+					<dl>
+						<dt>Data i miejsce urodzenia</dt>
+						<dd>03.01.1990 r., Rybnik</dd>
+						<dt>Adres</dt>
+						<dd>Szczęśliwice, Warszawa</dd>
+						<dt>E-mail</dt>
+						<dd><a href="mailto:mateusz.rasinski@gmail.com">mateusz.rasinski@gmail.com</a></dd>
+						<dt>Profile</dt>
+						<dd id="profiles">
+							<a href="http://www.linkedin.com/in/mateuszrasinski">
+								<img class="profileImg" alt="LinkedIn Profile" src="resources/LinkedIn_Logo16px.png"/>
+							</a>
+							<a href="https://github.com/MateuszRasinski/">
+								<img class="profileImg" alt="GitHub Profile" src="resources/GitHub-Mark-32px.png"/>
+							</a>
+							<a href="https://twitter.com/MateuszRasinski">
+								<img id="twitterLogo" class="profileImg" alt="Twitter Profile" src="resources/TwitterLogo_white.png"/>
+							</a>
+							<a href="https://stackoverflow.com/users/2257836/mateusz-rasi%C5%84ski">
+								<img class="profileImg" alt="Stack Overflow Profile" src="resources/so-icon.png"/>
+							</a>
+						</dd>
+						<dt>Blog</dt>
+						<dd>
+							<a href="https://mateuszrasinski.github.io/">https://mateuszrasinski.github.io/</a>
+						</dd>
+					</dl>
+				</div>
+				<img id="myImg" alt="Mateusz Rasiński" src="resources/resume.png" width="187" height="249">
 			</div>
 			<div id="experience" class="section">
 				<h2>Doświadczenie</h2>
 				<dl>
-					<dt>03.2014 –  obecnie</dt>
+					<dt>02.2015 –  obecnie <br/>(2 lata, 5 miesięcy)</dt>
 					<dd>
 						<div class="definition">
-							<h3>Junior Software Engineer @ <a href="http://www.cybercom.com/pl/Poland/">Cybercom Poland</a></h3>
-							<p>Analiza i development aplikacji wewnętrznych.</p>
+							<h3>Software Developer @ <a href="https://touk.pl/">TouK</a></h3>
 							<ul>
 								<li class="project">
 									<p>
-										Aplikacja do przeprowadzania testów technicznych dla kandydatów <br/>
-										(1+ miesięcy). Moje obowiązki:
+										Tworzenie głównej aplikacji dla firmy pośredniczącej w zakupie reklam telewizyjnych (10+ miesięcy)
 									</p>
 									<ul>
-										<li>opracowanie wymagań w formie "User Stories"</li>
-										<li>konfiguracja środowiska: Gradle, Gerrit, Jenkins</li>
-										<li>zaadaptowanie DDD, implementacja logiki domenowej</li>
-										<li>serwisy RESTowe i front-end (AngularJS)</li>
+										<li>analiza wymagań we współpracy z klientem; projekt oraz implementacja rozwiązań</li>
+										<li>refaktoring do rich domain model</li>
+										<li>bycie adwokatem DDD w zespole</li>
 										<li>
 											<small>
-												Java 8, Spring (MVC, Security, Data MongoDB), MongoDB; TestNG, Mockito;
-												AngularJS; Gradle, Git, Gerrit; Tomcat; Scrum
+												Java, Spring Boot, JPA (Hibernate), AngularJS, PostgreSQL, Maven
 											</small>
 										</li>
 									</ul>
 								</li>
 								<li class="project">
 									<p>
-										Aplikacja katalogująca referencje projektów z funkcjonalnością
-										generowania prezentacji PowerPoint (9 miesięcy). Moje obowiązki:
+										Rozwój i utrzymanie aplikacji oraz usług do zarządzania katalogiem i cennikami produktów dla firmy telekomunikacyjnej (10 miesięcy)
 									</p>
 									<ul>
-										<li>konfiguracja środowiska: Gradle, Gerrit, Jenkins</li>
-										<li>integracja Spring Security z firmowym Active Directory</li>
-										<li>implementacja logiki generowania prezentacji (Apache POI)</li>
-										<li>serwisy RESTowe i front-end (AngularJS, Bootstrap)</li>
-										<li>bezpośrednio odpowiedzialny za cały projekt</li>
+										<li>analiza wymagań we współpracy z klientem; projekt oraz implementacja rozwiązań full stack</li>
+										<li>próby wprowadzania rich domain model</li>
 										<li>
 											<small>
-												Spring (MVC, Security, Data), JPA (Hibernate); TestNG, Mockito; AngularJS,
-												Bootstrap; Maven -> Gradle, Git, Gerrit; MySQL, GlassFish 3; Scrum
+												Groovy, Spring Boot, JPA (Hibernate), AngularJS, Oracle DB, Gradle
 											</small>
 										</li>
 									</ul>
 								</li>
 								<li class="project">
-									Ponadto, z mojej inicjatywy wykorzystuje się w firmie <i>Gerrit'a</i>, którego wdrożyłem oraz
-									jestem jego administratorem. Zapoznałem z nim zespół oraz przeprowadziłem wewnętrzną
-									prezentację na jego temat.
+									<p>
+										Stworzenie usługi przygotowującej dane do wysyłania w formie powiadomień SMS, e-mail dla firmy telekomunikacyjnej (5 miesięcy)
+									</p>
+									<ul>
+										<li>analiza wymagań; projekt i implementacja rozwiązania</li>
+										<li>
+											<small>
+												Groovy, Oracle DB, ActiveMQ, Maven
+											</small>
+										</li>
+									</ul>
+								</li>
+								<li class="project">
+									<p>
+										Stworzenie usługi integrującej dwie wersje systemu MNP dla firmy telekomunikacyjnej (4 miesiące)
+									</p>
+								</li>
+								<li>Wycena nowych, potencjalnych projektów</li>
+								<li>Stworzenie zadania rekrutacyjnego</li>
+							</ul>
+						</div>
+					</dd>
+					<dt>03.2014 –  02.2015 <br/>(11 miesięcy)</dt>
+					<dd>
+						<div class="definition">
+							<h3>Junior Software Engineer @ <a href="http://www.cybercom.com/pl/Poland/">Cybercom Poland</a></h3>
+							<p>Analiza i development aplikacji na potrzebny wewnętrzne.</p>
+							<ul>
+								<li class="project">
+									<p>
+										Aplikacja do przeprowadzania testów technicznych dla kandydatów (2 miesiące)
+									</p>
+									<ul>
+										<li>opracowanie wymagań; konfiguracja środowiska CI i Code Review; implementacja full stack</li>
+										<li>przekonanie zespołu do używania DDD</li>
+										<li>
+											<small>
+												Java 8, Spring, MongoDB, AngularJS, Gradle
+											</small>
+										</li>
+									</ul>
+								</li>
+								<li class="project">
+									<p>
+										Aplikacja katalogująca i projektów umożliwiająca generowanie prezentacji (9 miesięcy)
+									</p>
+									<ul>
+										<li>opracowanie wymagań; konfiguracja środowiska CI i Code Review; implementacja full stack</li>
+										<li>integracja Spring Security z firmowym Active Directory</li>
+										<li>
+											<small>
+												Java, Spring, JPA (Hibernate), AngularJS, Bootstrap, Maven
+											</small>
+										</li>
+									</ul>
+								</li>
+								<li class="project">
+									<p>
+										Ponadto, z mojej inicjatywy wykorzystywało się w firmie <i>Gerrit'a</i>, którego wdrożyłem i administrowałem. Zapoznałem z nim zespół oraz przeprowadziłem wewnętrzną prezentację na ten temat.
+									</p>
 								</li>
 							</ul>
 						</div>
 					</dd>
-					<dt>09.2013 –  02.2014</dt>
+					<dt>09.2013 –  02.2014 (6 miesięcy)</dt>
 					<dd>
 						<div class="definition">
 							<h3>Młodszy Programista @ <a href="http://www.javeo.eu/">JAVART (obecnie JAVEO)</a></h3>
 							<p>Rozwój i utrzymanie centralnego systemu wiodącej firmy ubezpieczeniowej.</p>
 							<ul>
-								<li>Back-end: rozwój modułu księgowego oraz raportowego w oparciu o autorski framework IDIT</li>
-								<li>Front-end: tworzenie i modyfikacja ekranów w oparciu o niestandardowe znaczniki JSP</li>
+								<li>Rozwój modułu raportowego w oparciu o customowy framework</li>
 								<li>
 									<small>
-										IDIT Framework, EJB 2.1, IntelliJ IDEA; Oracle DB; JSP, JavaScript, CSS; Git, Gerrit;
-										BEA WebLogic, JBoss; Scrum
+										Java, Oracle DB, JSP, JavaScript, Maven
 									</small>
 								</li>
 							</ul>
 						</div>
 					</dd>
-					<dt>07.2012 –  07.2013</dt>
+					<dt>07.2012 –  07.2013 (1 rok, 1 miesiąc)</dt>
 					<dd>
 						<div class="definition">
 							<h3>Młodszy Programista @ <a href="http://www.ospartner.pl">Outsourcing Partner</a></h3>
 							<p>Tworzenie systemu e-commerce dla dużej polskiej firmy MLM.</p>
 							<ul>
-								<li>Back-end: moduł wysyłek</li>
-								<li>Front-end: moduły logowania, rejestracji, zamówień, promocji</li>
+								<li>Współpraca z klientem przy tworzeniu wymagań</li>
+								<li>Projektowanie rozwiązań i ich implementacja</li>
 								<li>
 									<small>
-										Spring (MVC, Security), Hibernate, JUnit, Eclipse; PostgreSQL; JSP, JavaScript (jQuery),
-										CSS, FreeMarker; Git, Maven, Tomcat
+										Java, Spring, Hibernate, PostgreSQL, JSP, JavaScript, Maven
 									</small>
 								</li>
 							</ul>
@@ -131,22 +181,20 @@
 					<dt>2013 – obecnie</dt>
 					<dd>
 						<div class="definition">
-							studia II stopnia – II rok (zaoczne, internetowe)<br/>
-							<a href="http://www.pw.edu.pl">Politechnika Warszawska</a>,<br/>
+							studia II stopnia - absolutorium (zaoczne, internetowe)<br/>
+							<a href="http://www.pw.edu.pl">Politechnika Warszawska</a>,
 							<a href="http://www.ee.pw.edu.pl">Wydział Elektryczny</a>,<br/>
-							<a href="http://www.ee.pw.edu.pl/studia/kierunki-studiow/informatyka">kierunek: Informatyka,</a><br/>
-							specjalność: Inżynieria Oprogramowania
+							<a href="http://www.ee.pw.edu.pl/studia/kierunki-studiow/informatyka"> Informatyka,</a> Inżynieria Oprogramowania
 						</div>
 					</dd>
 					<dt>2009 – 2013</dt>
 					<dd>
 						<div class="definition">
 							studia I stopnia, tytuł inżyniera<br/>
-							<a href="http://www.pw.edu.pl">Politechnika Warszawska</a>,<br/>
+							<a href="http://www.pw.edu.pl">Politechnika Warszawska</a>,
 							<a href="http://www.elka.pw.edu.pl">Wydział Elektroniki i Technik Informacyjnych</a>,<br/>
-							makrokierunek: Elektronika, Informatyka i Telekomunikacja,<br/>
-							<a href="http://www.elka.pw.edu.pl/pol/Kandydaci/Stacjonarne-studia-pierwszego-stopnia/Specjalnosci/Elektronika-i-Informatyka-w-Medycynie">
-								specjalność: Elektronika i Informatyka w Medycynie</a>
+							makrokierunek: Elektronika, Informatyka i Telekomunikacja,
+							specjalność: Elektronika i Informatyka w Medycynie
 						</div>
 					</dd>
 				</dl>
@@ -155,7 +203,14 @@
 				<h2>Kursy i szkolenia</h2>
 				<dl>
 					<dt>
-						<a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
+						Adrian Soja &amp; Adam Radecki<br/>
+						04-07.2016
+					</dt>
+					<dd class="two-lines">
+						Komunikacja transformująca
+					</dd>
+					<dt>
+						Jakub Kubryński via <a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
 						01.2015
 					</dt>
 					<dd class="two-lines">
@@ -164,7 +219,7 @@
 						</a>
 					</dd>
 					<dt>
-						<a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
+						Rafał Jamróz via <a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
 						11.2014
 					</dt>
 					<dd>
@@ -173,23 +228,12 @@
 						</a>
 					</dd>
 					<dt>
-						<a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
+						Sławomir Sobótka via <a href="http://bottega.com.pl/">Bottega IT Solutions</a><br/>
 						09.2014
 					</dt>
 					<dd>
 						<a href="http://bottega.com.pl/szkolenie-wzorce-projektowe-dla-projektantow-i-architektow">
 							Wzorce projektowe i architektoniczne oraz efektywne techniki Object Oriented Design dla projektantów systemów
-						</a>
-					</dd>
-					<dt>
-						<a href="https://class.stanford.edu/">Stanford University</a><br/>
-						01-03.2013
-					</dt>
-					<dd>
-						<a href="https://class.stanford.edu/courses/Engineering/db/2014_1/about">Introduction to Databases</a><br/>
-						<i>Statement of Accomplishment - with Distinction</i>
-						<a href="resources/Statement_of_Accomplishment.pdf">
-							<img id="pdfImg" alt="Statement of Accomplishment" src="resources/pdficon_small.png"/>
 						</a>
 					</dd>
 				</dl>
@@ -201,13 +245,13 @@
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
-								<dt>Java SE</dt>
+								<dt>Java</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 								</dd>
-								<dt>Java SE 8</dt>
+								<dt>JavaScript</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
@@ -215,7 +259,7 @@
 								</dd>
 							</dl>
 							<dl class="definition-right">
-								<dt>Java EE</dt>
+								<dt>Groovy</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
@@ -228,71 +272,11 @@
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
-								<dt>Spring (Core, MVC, Security, Data)</dt>
+								<dt>Spring</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
-								</dd>
-								<dt>Spring Boot</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-							<dl class="definition-right">
-								<dt>JPA (Hibernate)</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-						</div>
-					</dd>
-					<dt>testowanie</dt>
-					<dd>
-						<div class="definition">
-							<dl class="definition-left">
-								<dt>TestNG</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-								<dt>JUnit</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-							<dl class="definition-right">
-								<dt>Mockito</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-						</div>
-					</dd>
-					<dt>techniki webowe</dt>
-					<dd>
-						<div class="definition">
-							<dl class="definition-left">
-								<dt>HTML, CSS</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-								</dd>
-								<dt>JavaScript (jQuery)</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
 								<dt>AngularJS</dt>
 								<dd>
@@ -302,40 +286,7 @@
 								</dd>
 							</dl>
 							<dl class="definition-right">
-								<dt>Bootstrap</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-								<dt>REST</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-								<dt>JAX-RS (Jersey)</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-						</div>
-					</dd>
-					<dt>template engines</dt>
-					<dd>
-						<div class="definition">
-							<dl class="definition-left">
-								<dt>Thymeleaf</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-							<dl class="definition-right">
-								<dt>JSP</dt>
+								<dt>JPA (Hibernate)</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
@@ -354,19 +305,13 @@
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
+							</dl>
+							<dl class="definition-right">
 								<dt>Maven</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
-							</dl>
-							<dl class="definition-right">
-								<dt>Jenkins</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
 								</dd>
 							</dl>
 						</div>
@@ -375,15 +320,21 @@
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
-								<dt>SQL</dt>
+								<dt>PostgreSQL</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
+								</dd>
+								<dt>MongoDB</dt>
+								<dd>
 									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
 							</dl>
 							<dl class="definition-right">
-								<dt>MongoDB</dt>
+								<dt>Oracle DB</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
@@ -396,10 +347,10 @@
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
-								<dt>Linux (Ubuntu, Debian, Mint)</dt>
+								<dt>Linux</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
 							</dl>
@@ -407,26 +358,26 @@
 								<dt>Microsoft Windows</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
+									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
 							</dl>
 						</div>
 					</dd>
-					<dt>dobre praktyki</dt>
+					<dt>techniki</dt>
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
-								<dt>Clean Code</dt>
+								<dt>Domain-Driven Design</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 								</dd>
-								<dt>Domain-Driven Design</dt>
+								<dt>Clean Code</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
+									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
 							</dl>
@@ -435,12 +386,19 @@
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star" src="resources/star-16.png"/>
+								</dd>
+								<dt>REST</dt>
+								<dd>
+									<img alt="star" src="resources/star-16.png"/>
+									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star-outline" src="resources/star-outline-16.png"/>
 								</dd>
+
 							</dl>
 						</div>
 					</dd>
-					<dt>inne</dt>
+					<dt>narzędzia</dt>
 					<dd>
 						<div class="definition">
 							<dl class="definition-left">
@@ -450,13 +408,7 @@
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 								</dd>
-								<dt>IntelliJ IDEA</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-								</dd>
-								<dt>Tomcat</dt>
+								<dt>Jenkins</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
@@ -464,19 +416,13 @@
 								</dd>
 							</dl>
 							<dl class="definition-right">
-								<dt>JIRA</dt>
-								<dd>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star" src="resources/star-16.png"/>
-									<img alt="star-outline" src="resources/star-outline-16.png"/>
-								</dd>
 								<dt>Gerrit</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
 								</dd>
-								<dt>Checksyle, Findbugs</dt>
+								<dt>JIRA</dt>
 								<dd>
 									<img alt="star" src="resources/star-16.png"/>
 									<img alt="star" src="resources/star-16.png"/>
@@ -487,37 +433,14 @@
 					</dd>
 				</dl>
 			</div>
-			<div id="languages" class="section">
-				<h2>Języki obce</h2>
-				<dl>
-					<dt>angielski</dt>
-					<dd>
-						<img alt="star" src="resources/star-16.png"/>
-						<img alt="star" src="resources/star-16.png"/>
-						<img alt="star" src="resources/star-16.png"/>
-						(C1)
-					</dd>
-					<dt>niemiecki</dt>
-					<dd>
-						<img alt="star" src="resources/star-16.png"/>
-						<img alt="star-outline" src="resources/star-outline-16.png"/>
-						<img alt="star-outline" src="resources/star-outline-16.png"/>
-						(A2)
-					</dd>
-				</dl>
-			</div>
 			<div id="additionalInfo" class="section">
 				<h2>Informacje dodatkowe</h2>
 				<ul>
-					<li>chętny do nauki najlepszych praktyk i technologii</li>
+					<li>angielski - C1</li>
 					<li>otwarty, uczciwy, dbający o dobro wspólne</li>
+					<li>organizator wspólnych wyjść firmowych na piłkę, piwo</li>
 					<li>wielokrotny uczestnik spotkań WJUGa, Jinkubatora, Warsaw Spring Labs</li>
-					<li>
-						przeczytał: <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a>,
-						czyta: <a href="http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215">Domain-Driven Design</a>,
-						<a href="http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683">Effective Java</a>
-					</li>
-					<li>posiadacz prawa jazdy kat. A i B</li>
+					<li>uczestnik konferencji: <a href="http://devoxx.pl/">Devoxx</a> (2015, 2016), <a href="https://confitura.pl">Confitura</a> (2015, 2016), <a href="http://4developers.org.pl/">4Developers</a> (2015, 2016, 2017)</li>
 				</ul>
 			</div>
 			<footer>
