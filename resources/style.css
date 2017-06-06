@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+}
+
+#content {
+	width: 800px;
+	margin: 4em auto;
+}
+
+h1 {
+	clear: both;
+	border-bottom: 1px solid #777;
+	font-family: "Cambria";
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.25em;
+	letter-spacing: -0.05em;
+}
+
+h2 {
+	clear: both;
+	border-bottom: 1px solid #777;
+	margin-bottom: 0.4em;
+	padding-bottom: 0.25em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: normal;
+	margin-bottom: 0.4em;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+/* CONTAIN FLOATING ELEMENTS */
+dl {
+	overflow: auto;
+}
+/*****************************/
+
+ul {
+	margin-left: 20%;
+}
+
+/* IMG POSITIONING */
+img {
+	vertical-align: top;
+}
+
+#myImg {
+	float: right;
+	margin-top: -8.3em;
+}
+
+#main dt {
+	width: 48.3%;
+}
+
+#main dd {
+	width: 46%;
+}
+
+#gitHubImg {
+	height: 16px;
+	width: 16px;
+}
+
+#pdfImg {
+	margin-right: 2%;
+}
+/*******************/
+
+dt {
+	clear: left;
+	color: #666;
+	float: left;
+	text-align: right;
+	padding: 0.25em 0;
+	width: 35%;
+}
+
+dd {
+	border-left: 1px solid #CCC;
+	float: right;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 2.5%;
+	width: 60%;
+}
+
+#courses dd.two-lines {
+	height: 32px;
+}
+
+#skills .categories dt {
+	width: 20%;
+}
+
+#skills .categories > dt {
+	padding-top: 0.5em;
+}
+
+#skills .categories dd {
+	width: 75%;
+	padding-top: 0;
+}
+
+#skills .definition  dl {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+}
+
+#skills .definition dt {
+	color: #000;
+	text-align: left;
+	width: 75%;
+	clear: right;
+}
+
+#skills .definition dd {
+	border-left: none;
+	text-align: left;
+	float: left;
+	width: 20%;
+}
+
+#skills .definition-left {
+	border-right: 1px solid #CCC;
+}
+
+#skills .definition-right {
+	float: right;
+	padding-left: 2.5%;
+}
+
+#experience > dl > dt,
+#education > dl > dt, 
+#skills > dl > dt { 
+	clear: right;
+	margin-top: 1px;
+	padding-top: 0.5em;
+}
+
+#experience > dl > dt:first-child,
+#education > dl > dt:first-child, 
+#skills > dl > dt:first-child {
+	margin-top: 0px;
+	padding-top: 0.25em;
+}
+
+.definition {
+	border-top: 1px solid #CCC;
+	padding-top: 0.25em;
+}
+
+.definition ul {
+	margin-left: 4%;
+}
+
+.project {
+	margin-top: 0.5em;
+}
+
+div.section {
+	margin-bottom: 0.5em;
+}
+
+div.section > dl > dd:last-child {
+	border-bottom: 0;
+}
+
+div.section > dl > dd:first-of-type > .definition {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#additionalInfo a {
+	font-style: italic;
+}
+
+footer {
+	margin-top: 2em;
+	font-size: 0.9em;
+	color: #999;
+}
