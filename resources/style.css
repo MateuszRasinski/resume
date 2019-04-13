@@ -178,12 +178,20 @@ div#info {
 #education > dl > dt:first-child,
 #skills > dl > dt:first-child {
 	margin-top: 0;
-	padding-top: 0.25em;
+	padding-top: 0.25em !important;
 }
 
 .definition {
 	border-top: 1px solid #CCC;
 	padding-top: 0.25em;
+}
+
+.portfolio .definition {
+	padding-top: 1em;
+}
+
+.portfolio dt {
+	padding-top: 1.25em !important;
 }
 
 .definition ul {
