@@ -73,7 +73,7 @@ img {
 	width: 46%;
 }
 
-img.profileImg {
+img.logo {
 	height: 16px;
 	width: 16px;
 }
@@ -81,11 +81,6 @@ img.profileImg {
 #twitterLogo {
 	background-color: #55acee;
 }
-
-#pdfImg {
-	margin-right: 2%;
-}
-/*******************/
 
 dt {
 	clear: left;
@@ -120,6 +115,10 @@ div#info {
 
 #experience dd {
 	width: 80%;
+}
+
+.thesis {
+	font-style: italic;
 }
 
 #courses dd.two-lines {
