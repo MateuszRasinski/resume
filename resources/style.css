@@ -135,34 +135,6 @@ div#info {
 
 #skills .categories dd {
 	width: 75%;
-	padding-top: 0;
-}
-
-#skills .definition  dl {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-	width: 50%;
-}
-
-#skills .definition dt {
-	color: #000;
-	text-align: left;
-	width: 75%;
-	clear: right;
-}
-
-#skills .definition dd {
-	border-left: none;
-	text-align: left;
-	float: left;
-	width: 20%;
-}
-
-#skills .definition-right {
-	float: right;
-	padding-left: 2.5%;
 }
 
 #experience > dl > dt,
