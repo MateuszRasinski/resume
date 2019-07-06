@@ -12,17 +12,12 @@ html {
 
 #content {
 	width: 800px;
-	margin: 4em auto;
+	margin: 1em auto;
 }
 
 h1 {
-	clear: both;
-	border-bottom: 1px solid #777;
 	font-family: "Cambria", serif;
 	font-size: 2.5em;
-	margin-bottom: 0.5em;
-	padding-bottom: 0.25em;
-	letter-spacing: -0.05em;
 }
 
 h2 {
@@ -60,8 +55,6 @@ img {
 
 #myImg {
   box-shadow: 6px 6px 14px 0 black;
-	position: absolute;
-	margin-top: -3em;
 	margin-left: 20px;
 }
 
@@ -102,6 +95,16 @@ dd {
 
 div#info {
 	width: 567px;
+	display: inline-block;
+}
+
+#contact {
+	border-bottom: 1px solid #777;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+#contact div {
 	display: inline-block;
 }
 
