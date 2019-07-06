@@ -81,7 +81,7 @@ dt {
 	float: left;
 	text-align: right;
 	padding: 0.25em 0;
-	width: 35%;
+	width: 20%;
 }
 
 dd {
@@ -90,7 +90,7 @@ dd {
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	padding-left: 2.5%;
-	width: 60%;
+	width: 75%;
 }
 
 div#info {
