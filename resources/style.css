@@ -71,6 +71,16 @@ img.logo {
 	width: 16px;
 }
 
+img.logo.x2 {
+	height: 32px;
+	width: 32px;
+}
+
+.img-link a,
+.img-link {
+	text-decoration: none;
+}
+
 #twitterLogo {
 	background-color: #55acee;
 }
@@ -108,10 +118,6 @@ div#info {
 	display: inline-block;
 }
 
-#profiles a {
-	text-decoration: none;
-}
-
 #experience dt {
 	width: 15%;
 }
@@ -126,6 +132,11 @@ div#info {
 
 #courses dd.two-lines {
 	height: 32px;
+	line-height: 32px;
+}
+
+#courses #csm {
+	vertical-align: top;
 }
 
 #skills .categories dt {
