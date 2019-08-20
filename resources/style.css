@@ -119,11 +119,12 @@ div#info {
 }
 
 #experience dt {
-	width: 15%;
+	width: 17%;
 }
 
 #experience dd {
 	width: 80%;
+	padding-left: 1.25%;
 }
 
 .thesis {
