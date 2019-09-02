@@ -167,6 +167,10 @@ div#info {
 	padding-top: 0.25em !important;
 }
 
+#courses {
+    page-break-before: always;
+}
+
 #conferences dl {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
