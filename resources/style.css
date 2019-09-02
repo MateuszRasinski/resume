@@ -167,6 +167,23 @@ div#info {
 	padding-top: 0.25em !important;
 }
 
+#conferences dl {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	margin-bottom: 0.5em;
+}
+
+#conferences dt {
+	width: 40%
+}
+
+#conferences dd {
+	width: 52.5%
+}
+
 .definition {
 	border-top: 1px solid #CCC;
 	padding-top: 0.25em;
